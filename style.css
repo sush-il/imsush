@@ -70,9 +70,15 @@ body{
     padding-bottom: 0;
 }
 
+.pro-name:hover{
+    color:#1DB954;
+    font-size:calc(2rem + 1vw);
+}
+
 .pro-desc{
     padding-top: 0;
     padding:2rem;
+    margin: 0;
 }
 
 .card{
@@ -105,6 +111,15 @@ body{
 .personal{
     display:flex;
     align-items: center;
+}
+
+.proj-link-github{
+    width: 4rem;
+    /* float: right; */
+    /* color: black; */
+    /* justify-content: right; */
+    align-self: flex-end;
+    padding: 1%;
 }
 
 @media (min-width: 2500px){
