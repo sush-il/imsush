@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Scrollbar for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111827 /* Background of the scrollbar track */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color of the scrollbar thumb */
+    border-radius: 6px; /* Roundness of the thumb */
+    border: 3px solid #111827; /* Space around thumb */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the thumb on hover */
+  }
+  
+  /* Scrollbar for Firefox */
+  * {
+    scrollbar-width: thin; /* Width of the scrollbar */
+    scrollbar-color: #888 #111827; /* thumb color track color */
+  }
+  

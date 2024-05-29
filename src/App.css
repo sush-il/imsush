@@ -1,0 +1,11 @@
+@keyframes textChange {
+  0%, 100% { content: "Build things"; }
+  25% { content: "Change stuffy"; }
+  50% { content: "Create change"; }
+  75% { content: "Enjoy discomfort"; }
+}
+
+.text-change::after {
+  content: "Build things"; /* Initial content */
+  animation: textChange 8s steps(1, end) infinite;
+}
