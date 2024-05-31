@@ -4,5 +4,11 @@ export interface projectData{
     cover: string,
     githubLink: string,
     demoLink: string,
-    featured: boolean,
+    featured: string,
+    techUsed: string[]
+}
+
+export interface buildDataType{
+    type: string,
+    id: string
 }

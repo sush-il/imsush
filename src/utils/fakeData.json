@@ -1,0 +1,137 @@
+{
+    "projects": [
+      {
+        "featured": "true",
+        "title": "Project 1",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      }, 
+      {
+        "featured": "true",
+        "title": "Project 2",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "featured": "false",
+        "title": "Project 3",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "featured": "true",
+        "title": "Project 4",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "featured": "true",
+        "title": "Project 5",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      },
+      {
+        "featured": "false",
+        "title": "Project 6",
+        "description": "This project was done to impress people.",
+        "cover": "",
+        "githubLink": "",
+        "demoLink": "",
+        "techUsed": [
+          "React",
+          "JS",
+          "HTML",
+          "CSS"
+        ]
+      }
+      
+    ],
+
+    "buildData": {
+        "web": [
+            {
+              "type": "playlist",
+              "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+            },
+            
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            }
+        ],
+        
+        "leetcode": [
+          {
+            "type": "playlist",
+            "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+          }
+        ],
+
+        "other": [
+          {
+            "type": "playlist",
+            "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+          }
+        ]
+      }
+  }

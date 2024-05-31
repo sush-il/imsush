@@ -4,16 +4,26 @@ import App from './App.tsx'
 import './index.css'
 import {RouterProvider,createBrowserRouter} from "react-router-dom";
 import AllProjects from './pages/allProjects.tsx';
+import ProjectBuilds from './components/mediaRow.tsx';
+import BuildMedia from './pages/buildMedia.tsx';
+import AllBuilds from './pages/allBuilds.tsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    //children: [{}],
   },
   {
     path:"/allProjects",
     element: <AllProjects />
+  },
+  {
+    path:"/builds",
+    element: <BuildMedia />
+  },
+  {
+    path:"/allBuilds",
+    element: <AllBuilds />
   }
 ]);
 

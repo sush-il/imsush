@@ -6,7 +6,7 @@ const Navbar:React.FC<{isOpen:boolean, toggleMenu: ()=>void}> = ({isOpen, toggle
 
   return (
     <nav className="bg-slate-100 dark:bg-gray-900 shadow">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
+      <div className="max-w-7xl mx-auto px-3">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center justify-between w-full">
             <div className="flex-shrink-0">

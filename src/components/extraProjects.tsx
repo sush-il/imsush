@@ -1,70 +1,10 @@
 import { Link} from "react-router-dom"
 import ProjectCards from "./projectCards"
-const projects = [
-    {
-        title: "Project 1",
-        description: `This project was done to impress people. 
-        It is really really cool. It is really really cool.
-        It is really really cool. It is really really cool.
-        You should try it. It is really really cool. `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    },
-    {
-        title: "Project 2",
-        description: `This project was done to impress people. 
-        It is really really cool.
-        You should try it `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    },
-    {
-        title: "Project 3",
-        description: `This project was done to impress people. 
-        It is really really cool.
-        You should try it `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    },
-    {
-        title: "Project 4",
-        description: `This project was done to impress people. 
-        It is really really cool.
-        You should try it `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    }, 
-    {
-        title: "Project 5",
-        description: `This project was done to impress people. 
-        It is really really cool.
-        You should try it `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    },
-    {
-        title: "Project 5",
-        description: `This project was done to impress people. 
-        It is really really cool.
-        You should try it `,
-        cover: "",
-        githubLink: "",
-        demoLink: "",
-        featured: true,
-    }
-]
+import data from "../utils/fakeData.json"
 
 const ExtraProjects = () => {
+    const projects = data.projects;
+    console.log(projects);
     return (
         <div>
             <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">

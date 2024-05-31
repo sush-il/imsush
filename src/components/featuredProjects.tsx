@@ -1,7 +1,7 @@
 import { githubIcon, linkIcon } from "../assets/svgIcons"
 import temp from "../assets/temp.png"
 
-const ProjectSection = () => {
+const FeaturedProjects = () => {
     const projects = [
         {
             title: "Project 1",
@@ -61,4 +61,4 @@ const ProjectSection = () => {
     )
 }
 
-export default ProjectSection
+export default FeaturedProjects
