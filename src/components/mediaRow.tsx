@@ -24,12 +24,12 @@ const MediaRow:React.FC<mediaRowProps> = ({title, dataToMap, sliceStart=0, slice
 
                 <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
                     {
-                        dataToMap && dataToMap.slice(sliceStart,sliceEnd).map((build)=>{
+                        dataToMap && dataToMap.slice(sliceStart,sliceEnd).map((build,index)=>{
                             if(build.type === "video"){
-                                return <MediaEmbedCard embedLink={build.id} />
+                                return <MediaEmbedCard key={index} embedLink={build.id} />
                             }else if(build.type === "playlist"){
                                 const embedLink = `videoseries?list=${build.id}`
-                                return <MediaEmbedCard embedLink={embedLink} />
+                                return <MediaEmbedCard key={index} embedLink={embedLink} />
                             }
                         })
                     }

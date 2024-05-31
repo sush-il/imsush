@@ -1,5 +1,4 @@
 const MediaEmbedCard:React.FC<{embedLink:string}> = ({embedLink}) => {
-    console.log(embedLink);
     return (
         <div className="p-3 w-full">
             <iframe 
