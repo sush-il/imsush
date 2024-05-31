@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={`w-full min-h-screen font-mono flex flex-col bg-slate-100 text-black dark:bg-gray-900  dark:text-white p-3 `}>
       <Navbar toggleMenu={toggleMenu} isOpen={isOpen} />
-      <div className={`container mx-auto my-5 md:my-0 md:h-screen ${isOpen ? 'filter blur-sm' : ''}`}>
+      <div className={`w-full container mx-auto my-5 md:my-0 md:h-screen ${isOpen ? 'filter blur-sm' : ''}`}>
         <HeroSection />
       </div>
       <div id='projects' className={`container mx-auto flex flex-col ${isOpen ? 'filter blur-sm' : ''}`}>

@@ -1,0 +1,114 @@
+{
+    "projects": [
+      {
+        "featured": "true",
+        "title": "Spotii",
+        "description": "Spotii is a Spotify Music Analyzer application that integrates with the Spotify API to provide users with information about their playlists, top artists, and top tracks",
+        "cover": "https://shorturl.at/NfQA6",
+        "githubLink": "https://github.com/sush-il/Spotii",
+        "demoLink": "",
+        "techUsed": [
+          "TypeScript",
+          "React",
+          "Spotify API",
+          "Express"
+        ]
+      }, 
+      {
+        "featured": "true",
+        "title": "Booket",
+        "description": "Booket is designed to help you effortlessly record, manage, and explore your book notes. With Booket, you can enhance your reading experience by organizing your insights and reflections in one convenient place.",
+        "cover": "", 
+        "githubLink": "https://github.com/sush-il/Booket?tab=readme-ov-file",
+        "demoLink": "",
+        "techUsed": [
+          "Flutter",
+          "Dart"
+        ]
+      },
+      {
+        "featured": "true",
+        "title": "Duplicate Page Remover",
+        "description": "The system is designed to remove duplicate slides/pages from PDF files, ensuring that your presentations remain concise and clutter-free.",
+        "cover": "https://shorturl.at/PdFL7",
+        "githubLink": "https://github.com/sush-il/Duplicate-Page-Remover",
+        "demoLink": "",
+        "techUsed": [
+          "Flutter",
+          "Dart"
+        ]
+      },
+      {
+        "featured": "false",
+        "title": "Anime-Shop",
+        "description": "This is a simple GUI application for a shop selling anime merchandise as well as tickets for events. ",
+        "cover": "https://tinyurl.com/ye78xrvu",
+        "githubLink": "https://github.com/sush-il/Anime-Shop",
+        "demoLink": "",
+        "techUsed": [
+          "Python",
+          "Tkinter",
+          "SQLite"
+        ]
+      },
+      {
+        "featured": "false",
+        "title": "Dungeon of Doom",
+        "description": "A human player can move around the map and pick up gold. The goal is to get gold to meet a win condition and then exit the dungeon.",
+        "cover": "",
+        "githubLink": "https://github.com/sush-il/Dungeon-of-Doom",
+        "demoLink": "",
+        "techUsed": [
+          "Java"
+        ]
+      }      
+    ],
+
+    "buildData": {
+        "web": [
+            {
+              "type": "playlist",
+              "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+            },
+            
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            },
+            {
+              "type": "video",
+              "id": "Arf1RGM28zw"
+            }
+        ],
+        
+        "leetcode": [
+          {
+            "type": "playlist",
+            "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+          }
+        ],
+
+        "other": [
+          {
+            "type": "playlist",
+            "id": "PL-51WBLyFTg2vW-_6XBoUpE7vpmoR3ztO"
+          }
+        ]
+      }
+  }

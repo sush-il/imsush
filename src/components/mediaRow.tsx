@@ -22,7 +22,7 @@ const MediaRow:React.FC<mediaRowProps> = ({title, dataToMap, sliceStart=0, slice
                     </Link>
                 </div>}
 
-                <div className="w-full grid grid-cols-3"> 
+                <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3"> 
                     {
                         dataToMap && dataToMap.slice(sliceStart,sliceEnd).map((build)=>{
                             if(build.type === "video"){

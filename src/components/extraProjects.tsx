@@ -1,16 +1,15 @@
 import { Link} from "react-router-dom"
 import ProjectCards from "./projectCards"
-import data from "../utils/fakeData.json"
+import data from "../utils/allData.json"
 
 const ExtraProjects = () => {
     const projects = data.projects;
-    console.log(projects);
     return (
         <div>
             <div className="w-full grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                 {
                     projects.slice(0,6).map((project,index)=>(
-                        <ProjectCards project={project} key={index} />
+                        project.featured==="false" && <ProjectCards project={project} key={index} />
                     ))    
                 }
             </div>

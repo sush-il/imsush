@@ -14,7 +14,7 @@ const AllBuilds = () => {
     return(
         <div className="min-h-screen font-mono bg-slate-100 dark:bg-gray-900 dark:text-white">
             <Navbar toggleMenu={toggleMenu} isOpen={isOpen} />
-            <div className={`${isOpen ? 'filter blur-sm' : ''}`}>
+            <div className={`w-full ${isOpen ? 'filter blur-sm' : ''}`}>
                 <MediaRow title="" dataToMap={state.data} sliceEnd={state.data.length} />
             </div>
         </div>
