@@ -1,6 +1,6 @@
 import { buildDataType } from "../utils/dataTypes";
-import MediaEmbedCard from "./mediaEmbedCard";
 import { Link } from "react-router-dom";
+import MediaEmbedCard from "./mediaEmbedCard";
 
 interface mediaRowProps {
     title:string, 
