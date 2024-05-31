@@ -17,7 +17,7 @@ function App() {
       <div className={`container mx-auto my-5 md:my-0 md:h-screen ${isOpen ? 'filter blur-sm' : ''}`}>
         <HeroSection />
       </div>
-      <div className={`container mx-auto flex flex-col ${isOpen ? 'filter blur-sm' : ''}`}>
+      <div id='projects' className={`container mx-auto flex flex-col ${isOpen ? 'filter blur-sm' : ''}`}>
         <h1 className="text-5xl font-bold text-left p-2 pb-5"> Featured Projects </h1>
         <FeaturedProjects />
         

@@ -11,9 +11,9 @@ const HeroSection = () => {
             </section>
 
             <section className="ease-in-out flex flex-row pt-3">
-                <a href="#" target="_blank">{githubIcon}</a>
-                <a href="#" target="_blank">{linkedinIcon}</a>
-                <a href="#" target="_blank">{emailIcon}</a>
+                <a href="https://github.com/sush-il" target="_blank">{githubIcon}</a>
+                <a href="https://www.linkedin.com/in/sush-il/" target="_blank">{linkedinIcon}</a>
+                <a href="mailto:zoroat3@gmail.com" target="_blank">{emailIcon}</a>
             </section>
             
             <section className="pt-5 w-full lg:w-1/2">

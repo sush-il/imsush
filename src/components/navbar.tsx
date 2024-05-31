@@ -19,14 +19,11 @@ const Navbar:React.FC<{isOpen:boolean, toggleMenu: ()=>void}> = ({isOpen, toggle
                 <Link to="/" className="text-gray-800 dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Home
                 </Link>
-                <Link to="/projects" className="text-gray-800 dark:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <a href='#projects' className="text-gray-800 dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Projects
-                </Link>
+                </a>
                 <Link to="/builds" className="text-gray-800 dark:text-white px-3 py-2 rounded-md text-sm font-medium">
                   Builds
-                </Link>
-                <Link to="/photography" className="text-gray-800 dark:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Photography
                 </Link>
                 <ThemeToggle />
               </div>
@@ -52,14 +49,11 @@ const Navbar:React.FC<{isOpen:boolean, toggleMenu: ()=>void}> = ({isOpen, toggle
           <Link to="/" className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium">
             Home
           </Link>
-          <Link to="/projects" className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium">
+          <a href="#projects" className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium">
             Projects
-          </Link>
+          </a>
           <Link to="/builds" className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium">
             Builds
-          </Link>
-          <Link to="/photography" className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium">
-            Photography
           </Link>
           <ThemeToggle />
         </div>
