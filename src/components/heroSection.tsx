@@ -6,7 +6,7 @@ const HeroSection = () => {
         <div className="w-full h-full p-3 flex flex-col align-middle justify-center">
             <section>
                 <p className="text-teal-400 pb-3">Hello, World! I'm </p>
-                <h1 className=" text-7xl text-left font-black tracking-wide transition-all duration-1000 ease-in-out"> SUSHIL BHANDARI </h1>
+                <h1 className=" text-6xl text-left font-black tracking-wide transition-all duration-1000 ease-in-out lg:text-7xl"> SUSHIL BHANDARI </h1>
                 <h1 className="text-3xl font-bold text-left text-gray-400 lg:text-5xl"> I <span className="text-change"></span> </h1>
             </section>
 
@@ -17,11 +17,11 @@ const HeroSection = () => {
             </section>
             
             <section className="pt-5 w-full lg:w-1/2">
-            <p className="transition-all duration-1000"> 
-                I’m a software engineer specializing in building (and occasionally designing) 
-                exceptional digital experiences. 
-                Currently, I’m focused on building accessible, human-centered products at Upstatement.
-            </p>
+                <p className="transition-all duration-1000"> 
+                    I’m a software engineer specializing in building (and occasionally designing) 
+                    exceptional digital experiences. 
+                    Currently, I’m focused on building accessible, human-centered products at Upstatement.
+                </p>
             </section>
 
         </div>

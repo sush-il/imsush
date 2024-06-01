@@ -14,9 +14,9 @@ const BuildMedia = () => {
         <div className="flex flex-col">
             <Navbar toggleMenu={toggleMenu} isOpen={isOpen} />
             <div className={`${isOpen ? 'filter blur-sm' : ''}`}>
-                <MediaRow title="Web" dataToMap={data.buildData.web} />
-                <MediaRow title="LeetCode" dataToMap={data.buildData.leetcode} />
-                <MediaRow title="Other" dataToMap={data.buildData.other} />
+                {data.buildData.web.length > 0 && <MediaRow title="Web" dataToMap={data.buildData.web} />}
+                {data.buildData.leetcode.length > 0 && <MediaRow title="LeetCode" dataToMap={data.buildData.leetcode} />}
+                {data.buildData.other.length > 0 && <MediaRow title="Other" dataToMap={data.buildData.other} />}
             </div>
         </div>
     )

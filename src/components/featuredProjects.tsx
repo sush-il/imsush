@@ -1,5 +1,6 @@
 import { githubIcon, linkIcon } from "../assets/svgIcons"
 import data from "../utils/allData.json"
+import TechUsed from "./techUsed";
 
 const FeaturedProjects = () => {
     const projects = data.projects;
@@ -14,9 +15,14 @@ const FeaturedProjects = () => {
                         <p className="text-sm text-slate-400"> {project.description} </p>
                     </span>
 
-                    <div className="float-right w-full ">
-                        <a href={project.demoLink} target="_blank"> {linkIcon} </a>
-                        <a href={project.githubLink} target="_blank"> {githubIcon} </a>
+                    <div className="w-full flex justify-between items-center">
+                        <div className="w-2/3">
+                            <TechUsed techList={project.techUsed} />
+                        </div>
+                        <div className="w-1/3 p-3 float-right">
+                            <a href={project.demoLink} target="_blank"> {linkIcon} </a>
+                            <a href={project.githubLink} target="_blank"> {githubIcon} </a>
+                        </div>
                     </div>
 
                 </div>
