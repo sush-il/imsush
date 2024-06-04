@@ -18,9 +18,8 @@ const HeroSection = () => {
             
             <section className="pt-5 w-full lg:w-1/2">
                 <p className="transition-all duration-1000"> 
-                    I’m a software engineer specializing in building (and occasionally designing) 
-                    exceptional digital experiences. 
-                    Currently, I’m focused on building accessible, human-centered products at Upstatement.
+                    I’m a CS student and a software engineer specializing in building exceptional digital experiences. 
+                    Currently, I’m focused on improving my current skillsets and technical knowledge across the CS field.
                 </p>
             </section>
 

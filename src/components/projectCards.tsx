@@ -8,7 +8,7 @@ const ProjectCards:React.FC<{project:projectData}> = ({project}) => {
             <div className="w-full h-40 overflow-hidden">
                 <div className="rounded-md p-3 flex flex-row justify-between">
                     {folderIcon}
-                    <a href="" target="_blank"> {githubIcon} </a>
+                    <a href={project.githubLink} target="_blank"> {githubIcon} </a>
                 </div>
 
                 <div className="p-3 overflow-hidden text-ellipsis whitespace-normal">

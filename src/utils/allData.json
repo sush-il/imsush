@@ -4,7 +4,7 @@
         "featured": "true",
         "title": "Spotii",
         "description": "Spotii is a Spotify Music Analyzer application that integrates with the Spotify API to provide users with information about their playlists, top artists, and top tracks",
-        "cover": "https://private-user-images.githubusercontent.com/34659821/321352505-fa2587f5-e4e2-45c1-919b-33bb727257dd.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTcyNTgwODgsIm5iZiI6MTcxNzI1Nzc4OCwicGF0aCI6Ii8zNDY1OTgyMS8zMjEzNTI1MDUtZmEyNTg3ZjUtZTRlMi00NWMxLTkxOWItMzNiYjcyNzI1N2RkLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAxVDE2MDMwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTEzOGM0ZmE3YWJhMWFmZTIzMzIxYWMwYWJkMWE0OWYxMmU5MGJhMDE5OWI3MzI2MjNkMWY2ODZkOGMxOGFmZmUmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.w1OixYLFWkWbzUp3x3M6IwGqqj5jjrPp3GtJrKFkujw",
+        "cover": "https://drive.google.com/uc?id=1DCi6Xn6GMeDxWdiI3HUUPupM40BRFF4C&export=download",
         "githubLink": "https://github.com/sush-il/Spotii",
         "demoLink": "",
         "techUsed": [
@@ -42,7 +42,7 @@
         "featured": "false",
         "title": "Anime-Shop",
         "description": "This is a simple GUI application for a shop selling anime merchandise as well as tickets for events. ",
-        "cover": "https://private-user-images.githubusercontent.com/34659821/253921642-a74b4ad2-8aba-408a-a97c-662913737acf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTcyNTgxOTAsIm5iZiI6MTcxNzI1Nzg5MCwicGF0aCI6Ii8zNDY1OTgyMS8yNTM5MjE2NDItYTc0YjRhZDItOGFiYS00MDhhLWE5N2MtNjYyOTEzNzM3YWNmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjAxVDE2MDQ1MFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWRhMzFmYmNmZjZlOTdjZWRmODIyOTY1MTNhOGRkZmMwNmY4MWY1MjhkYWMzMTJmMzYwOTQ3ODMyNDg1Mjg4NzYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.1UTpXSESAf5SlyqVWdHZv-Z551VGzXT8UaI_wlE9WkQ",
+        "cover": "https://drive.google.com/file/d/1mr4Zb3Ks5f-MvtgmRvTTy9iJ-Zld7MfR/view?usp=sharing",
         "githubLink": "https://github.com/sush-il/Anime-Shop",
         "demoLink": "",
         "techUsed": [
