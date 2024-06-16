@@ -12,3 +12,13 @@ export interface buildDataType{
     type: string,
     id: string
 }
+
+export interface TreeNode {
+    name: string;
+    id: string;
+    children?: TreeNode[];
+  }
+  
+export interface MindmapProps {
+    data: TreeNode;
+  }

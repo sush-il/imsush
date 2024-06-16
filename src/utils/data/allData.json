@@ -89,5 +89,54 @@
             "id": "NNdkyL0KR6I"
           }
         ]
-      }
+      },
+
+    "mindmapData": {
+      "children": [
+        {
+         "name": "Interactive tools",
+         "free": true,
+         "children": [
+          {
+           "name": "Browser-based",
+           "free": true,
+           "children": [
+            {
+             "name": "Datawrapper",
+             "free": true
+            },
+            {
+             "name": "Google Sheets",
+             "free": true
+            },
+            {
+             "name": "plotly",
+             "free": true
+            },
+            {
+             "name": "RAW",
+             "free": true
+            }
+           ]
+          },
+          {
+           "name": "Desktop",
+           "children": [
+            {
+             "name": "Tableau Desktop",
+             "description": "Powerful tool for data analytics and visualisation",
+             "url": "http://www.tableausoftware.com/products/desktop"
+            },
+            {
+             "name": "Tableau Public",
+             "description": "Free version of Tableau Desktop where charts are public",
+             "url": "http://www.tableausoftware.com/products/public",
+             "free": true
+            }
+           ]
+          }
+         ]
+        }
+      ]
+     }
   }

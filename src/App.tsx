@@ -3,6 +3,8 @@ import Navbar from './components/navbar';
 import HeroSection from './components/heroSection';
 import ExtraProjects from './components/extraProjects';
 import FeaturedProjects from './components/featuredProjects';
+import Mindmap from './components/mindmap';
+import courseData from "./utils/data/courseMindmapData.json";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);

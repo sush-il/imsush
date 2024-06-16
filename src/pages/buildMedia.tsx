@@ -1,7 +1,7 @@
 import { useState } from "react";
 import MediaRow from "../components/mediaRow";
 import Navbar from "../components/navbar";
-import data from "../utils/allData.json";
+import data from "../utils/data/allData.json";
 
 const BuildMedia = () => {
     const [isOpen, setIsOpen] = useState(false);

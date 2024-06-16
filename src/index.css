@@ -26,4 +26,9 @@
     scrollbar-width: thin; /* Width of the scrollbar */
     scrollbar-color: #888 #111827; /* thumb color track color */
   }
+
+  circle {
+    background-color: red;
+    color: black;
+  }
   

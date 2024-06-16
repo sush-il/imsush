@@ -1,6 +1,6 @@
 import { Link} from "react-router-dom"
 import ProjectCards from "./projectCards"
-import data from "../utils/allData.json"
+import data from "../utils/data/allData.json"
 
 const ExtraProjects = () => {
     const projects = data.projects;

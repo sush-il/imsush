@@ -1,5 +1,5 @@
 import { githubIcon, linkIcon } from "../assets/svgIcons"
-import data from "../utils/allData.json"
+import data from "../utils/data/allData.json"
 import TechUsed from "./techUsed";
 
 const FeaturedProjects = () => {

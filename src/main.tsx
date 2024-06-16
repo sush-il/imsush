@@ -6,6 +6,7 @@ import {RouterProvider,createBrowserRouter} from "react-router-dom";
 import AllProjects from './pages/allProjects.tsx';
 import BuildMedia from './pages/buildMedia.tsx';
 import AllBuilds from './pages/allBuilds.tsx';
+import Extras from './pages/extras.tsx';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path:"/allBuilds",
     element: <AllBuilds />
+  },
+  {
+    path:"extras",
+    element: <Extras />
   }
 ]);
 

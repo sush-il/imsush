@@ -1,0 +1,242 @@
+{
+    "hci": {
+    "name": "UX Evaluation",
+    "id": "UX Evaluation",
+    "children": [
+        {
+            "name": "Human Perception",
+            "id": "Human Perception",
+            "children": [
+                {
+                    "name": "Attention",
+                    "id": "Attention",
+                    "children": [
+                        {
+                            "name": "Selective Attention",
+                            "id": "Selective Attention"
+                        },
+                        {
+                            "name": "Divided Attention",
+                            "id": "Divided Attention"
+                        },
+                        {
+                            "name": "Directing Attention",
+                            "id": "Directing Attention",
+                            "children": [
+                                {
+                                    "name": "External to goals (Exogenous)",
+                                    "id": "External to goals (Exogenous)"
+                                },
+                                {
+                                    "name": "Internal to goals (Endogenous)",
+                                    "id": "Internal to goals (Endogenous)"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "BIAS",
+                    "id": "BIAS",
+                    "children": [
+                        {
+                            "name": "Experience Bias (Past)",
+                            "id": "Experience Bias (Past)"
+                        },
+                        {
+                            "name": "Context Bias (Present)",
+                            "id": "Context Bias (Present)"
+                        },
+                        {
+                            "name": "Goal Bias (Future)",
+                            "id": "Goal Bias (Future)"
+                        }
+                    ]
+                },
+                {
+                    "name": "Visual Structure",
+                    "id": "Visual Structure",
+                    "children": [
+                        {
+                            "name": "Laws of Gestalt",
+                            "id": "Laws of Gestalt"
+                        },
+                        {
+                            "name": "Build Visual Hierarchy",
+                            "id": "Build Visual Hierarchy"
+                        },
+                        {
+                            "name": "Minimise Reading",
+                            "id": "Minimise Reading"
+                        },
+                        {
+                            "name": "Pre-attentive Features",
+                            "id": "Pre-attentive Features",
+                            "children": [
+                                {
+                                    "name": "Colour",
+                                    "id": "Colour"
+                                },
+                                {
+                                    "name": "Form",
+                                    "id": "Form"
+                                },
+                                {
+                                    "name": "Movement",
+                                    "id": "Movement"
+                                },
+                                {
+                                    "name": "Position",
+                                    "id": "Position"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Human Cognition",
+            "id": "Human Cognition",
+            "children": [
+                {
+                    "name": "Gulf of Execution",
+                    "id": "Gulf of Execution",
+                    "children": [
+                        {
+                            "name": "Affordances",
+                            "id": "Affordances",
+                            "children": [
+                                {
+                                    "name": "Physical Affordances",
+                                    "id": "Physical Affordances"
+                                },
+                                {
+                                    "name": "Cognitive Affordances",
+                                    "id": "Cognitive Affordances"
+                                },
+                                {
+                                    "name": "Functional Affordances",
+                                    "id": "Functional Affordances"
+                                },
+                                {
+                                    "name": "Sensory Affordances",
+                                    "id": "Sensory Affordances"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Memory and Attention",
+                    "id": "Memory and Attention",
+                    "children": [
+                        {
+                            "name": "Memory Formation",
+                            "id": "Memory Formation"
+                        },
+                        {
+                            "name": "Memory Reactivation",
+                            "id": "Memory Reactivation",
+                            "children": [
+                                {
+                                    "name": "Recognition",
+                                    "id": "Recognition"
+                                },
+                                {
+                                    "name": "Recall",
+                                    "id": "Recall"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Human Behaviour Patterns",
+                    "id": "Human Behaviour Patterns",
+                    "children": [
+                        {
+                            "name": "Needing External Aids",
+                            "id": "Needing External Aids"
+                        },
+                        {
+                            "name": "Attention only to promising leads",
+                            "id": "Attention only to promising leads"
+                        },
+                        {
+                            "name": "Pursuing Familiar Paths",
+                            "id": "Pursuing Familiar Paths"
+                        },
+                        {
+                            "name": "Goal, Execute, Evaluate cycle",
+                            "id": "Goal, Execute, Evaluate cycle"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Motor Actions",
+            "id": "Motor Actions",
+            "children": [
+                {
+                    "name": "Design Principles",
+                    "id": "Design Principles",
+                    "children": [
+                        {
+                            "name": "Nielsen's Ten Design Heuristics",
+                            "id": "Nielsen's Ten Design Heuristics"
+                        }
+                    ]
+                },
+                {
+                    "name": "Action",
+                    "id": "Action",
+                    "children": [
+                        {
+                            "name": "Input",
+                            "id": "Input"
+                        },
+                        {
+                            "name": "Control",
+                            "id": "Control"
+                        }
+                    ]
+                },
+                {
+                    "name": "Control-Display Relationships",
+                    "id": "Control-Display Relationships",
+                    "children": [
+                        {
+                            "name": "Spatial Mapping",
+                            "id": "Spatial Mapping"
+                        },
+                        {
+                            "name": "CD Gain",
+                            "id": "CD Gain"
+                        },
+                        {
+                            "name": "Properties Sensed",
+                            "id": "Properties Sensed",
+                            "children": [
+                                {
+                                    "name": "Position",
+                                    "id": "Position"
+                                },
+                                {
+                                    "name": "Displacement",
+                                    "id": "Displacement"
+                                },
+                                {
+                                    "name": "Force",
+                                    "id": "Force"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+  }
+}
