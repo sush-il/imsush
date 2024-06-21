@@ -1,13 +1,22 @@
-import { useState } from 'react';
+import { useContext, useState } from 'react';
 import Navbar from './components/navbar';
 import HeroSection from './components/heroSection';
 import ExtraProjects from './components/extraProjects';
 import FeaturedProjects from './components/featuredProjects';
-import Mindmap from './components/mindmap';
-import courseData from "./utils/data/courseMindmapData.json";
+import { DataContext } from './utils/dataContext';
+import { mainDataType } from './utils/dataTypes';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
+  const allData = useContext<mainDataType>(DataContext);
+  const projects = allData.projectsData;
+
+  if (!projects) {
+    return <div className='w-full min-h-screen font-mono flex flex-col bg-slate-100 text-black dark:bg-gray-900  dark:text-white p-3'>
+      Loading...
+    </div>;
+  }
+
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -21,12 +30,12 @@ function App() {
       </div>
       <div id='projects' className={`container mx-auto flex flex-col ${isOpen ? 'filter blur-sm' : ''}`}>
         <h1 className="text-5xl font-bold text-left p-2 pb-5"> Featured Projects </h1>
-        <FeaturedProjects />
+        <FeaturedProjects projects={projects} />
         
         <br />
         
         <h1 className="text-5xl font-bold text-left p-2 pb-5"> Other Projects</h1>
-        <ExtraProjects />
+        <ExtraProjects projects={projects} />
       </div>
     </div>
   );

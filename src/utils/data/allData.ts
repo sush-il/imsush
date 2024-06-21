@@ -1,4 +1,4 @@
-{
+const data = {
     "projects": [
       {
         "featured": "true",
@@ -140,3 +140,5 @@
       ]
      }
   }
+
+export default data;

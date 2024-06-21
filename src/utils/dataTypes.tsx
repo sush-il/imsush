@@ -1,4 +1,5 @@
-export interface projectData{
+// data type of each project
+export interface projectDataType{
     title: string,
     description: string,
     cover: string,
@@ -8,9 +9,23 @@ export interface projectData{
     techUsed: string[]
 }
 
-export interface buildDataType{
-    type: string,
-    id: string
+// data type of each media in builds section
+export interface buildsMediaType{
+  type: string,
+  id: string
+}
+
+// the whole builds datat types
+export interface buildsDataType{
+  web: buildsMediaType[],
+  leetcode: buildsMediaType[],
+  other: buildsMediaType[];
+}
+
+// theh whole data type stored as json
+export interface mainDataType{
+  projectsData: projectDataType[]
+  buildData: buildsDataType
 }
 
 export interface TreeNode {

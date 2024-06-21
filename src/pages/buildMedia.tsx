@@ -1,9 +1,12 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import MediaRow from "../components/mediaRow";
 import Navbar from "../components/navbar";
-import data from "../utils/data/allData.json";
+import { mainDataType } from "../utils/dataTypes";
+import { DataContext } from "../utils/dataContext";
+// import data from "../utils/data/allData";
 
 const BuildMedia = () => {
+    const data = useContext<mainDataType>(DataContext);
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {

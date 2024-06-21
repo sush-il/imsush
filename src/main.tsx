@@ -7,6 +7,8 @@ import AllProjects from './pages/allProjects.tsx';
 import BuildMedia from './pages/buildMedia.tsx';
 import AllBuilds from './pages/allBuilds.tsx';
 import Extras from './pages/extras.tsx';
+import AdminPage from './pages/adminPage.tsx';
+import { DataProvider } from './utils/dataContext.tsx';
 
 const router = createBrowserRouter([
   {
@@ -28,12 +30,18 @@ const router = createBrowserRouter([
   {
     path:"extras",
     element: <Extras />
+  },
+  {
+    path:"admin",
+    element: <AdminPage />
   }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <DataProvider>
+      <RouterProvider router={router} />
+    </DataProvider>
   </React.StrictMode>,
 )
 

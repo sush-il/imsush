@@ -6,6 +6,7 @@ import Navbar from "../components/navbar"
 import { useState } from "react"
 
 const AllProjects = () => {
+
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleMenu = () => {
