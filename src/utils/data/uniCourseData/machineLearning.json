@@ -1,0 +1,473 @@
+{
+  "deepLearning": {
+    "name": "Deep Learning",
+    "id": "Deep Learning",
+    "children": [
+      {
+        "name": "Neural Networks",
+        "id": "Neural Networks",
+        "children": [
+          {
+            "name": "Shallow / Deep Neural networks",
+            "id": "Shallow / Deep Neural networks"
+          },
+          {
+            "name": "Activation Functions (ReLU)",
+            "id": "Activation Functions (ReLU)"
+          },
+          {
+            "name": "Regions and Parameters",
+            "id": "Regions and Parameters"
+          },
+          {
+            "name": "Hyper-parameters",
+            "id": "Hyper-parameters"
+          },
+          {
+            "name": "Linear regions",
+            "id": "Linear regions"
+          }
+        ]
+      },
+      {
+        "name": "Loss Functions",
+        "id": "Loss Functions",
+        "children": [
+          {
+            "name": "Least Square",
+            "id": "Least Square"
+          },
+          {
+            "name": "Maximum likelihood",
+            "id": "Maximum likelihood"
+          },
+          {
+            "name": "Binary cross-entropy loss",
+            "id": "Binary cross-entropy loss"
+          },
+          {
+            "name": "Multiclass cross-entropy loss (Softmax)",
+            "id": "Multiclass cross-entropy loss (Softmax)"
+          }
+        ]
+      },
+      {
+        "name": "Optimisation (Minimising loss)",
+        "id": "Optimisation (Minimising loss)",
+        "children": [
+          {
+            "name": "Gradient descent",
+            "id": "Gradient descent",
+            "children": [
+              {
+                "name": "Line Search (bracketing)",
+                "id": "Line Search (bracketing)"
+              },
+              {
+                "name": "Stochastic gradient descent",
+                "id": "Stochastic gradient descent"
+              },
+              {
+                "name": "Momentum",
+                "id": "Momentum"
+              },
+              {
+                "name": "Nesterov Accelerated Momentum",
+                "id": "Nesterov Accelerated Momentum"
+              },
+              {
+                "name": "ADAM",
+                "id": "ADAM"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Back-propagation Algorithm (Computing gradients efficiently)",
+        "id": "Back-propagation Algorithm (Computing gradients efficiently)",
+        "children": [
+          {
+            "name": "Forward Pass",
+            "id": "Forward Pass"
+          },
+          {
+            "name": "Backward Pass",
+            "id": "Backward Pass"
+          }
+        ]
+      },
+      {
+        "name": "Initialization",
+        "id": "Initialization",
+        "children": [
+          {
+            "name": "He initialization",
+            "id": "He initialization"
+          },
+          {
+            "name": "Expectations",
+            "id": "Expectations"
+          }
+        ]
+      },
+      {
+        "name": "Measuring Performance",
+        "id": "Measuring Performance",
+        "children": [
+          {
+            "name": "Noise, Bias, Variance",
+            "id": "Noise, Bias, Variance"
+          },
+          {
+            "name": "Double Descent",
+            "id": "Double Descent"
+          },
+          {
+            "name": "Curse of dimensionality",
+            "id": "Curse of dimensionality"
+          }
+        ]
+      },
+      {
+        "name": "Regularization (Reduce over-fitting)",
+        "id": "Regularization (Reduce over-fitting)",
+        "children": [
+          {
+            "name": "Explicit Regularization",
+            "id": "Explicit Regularization",
+            "children": [
+              {
+                "name": "L2 Regularization",
+                "id": "L2 Regularization"
+              }
+            ]
+          },
+          {
+            "name": "Implicit Regularization",
+            "id": "Implicit Regularization"
+          },
+          {
+            "name": "Early Stopping",
+            "id": "Early Stopping"
+          },
+          {
+            "name": "Ensembling",
+            "id": "Ensembling"
+          },
+          {
+            "name": "Dropout",
+            "id": "Dropout"
+          },
+          {
+            "name": "Adding Noise",
+            "id": "Adding Noise"
+          }
+        ]
+      },
+      {
+        "name": "Convolutional Networks",
+        "id": "Convolutional Networks",
+        "children": [
+          {
+            "name": "Invariance & Equivariance",
+            "id": "Invariance & Equivariance"
+          },
+          {
+            "name": "Stride, Kernel size, Dilation (atrous)",
+            "id": "Stride, Kernel size, Dilation (atrous)"
+          },
+          {
+            "name": "Channels & Receptive Fields",
+            "id": "Channels & Receptive Fields"
+          },
+          {
+            "name": "U-Nets & hourglass networks",
+            "id": "U-Nets & hourglass networks"
+          }
+        ]
+      },
+      {
+        "name": "Image Generation",
+        "id": "Image Generation",
+        "children": [
+          {
+            "name": "Generative Adversarial Network (GAN)",
+            "id": "Generative Adversarial Network (GAN)",
+            "children": [
+              {
+                "name": "DCGAN",
+                "id": "DCGAN"
+              },
+              {
+                "name": "Conditional GANs",
+                "id": "Conditional GANs"
+              }
+            ]
+          },
+          {
+            "name": "Image translation models",
+            "id": "Image translation models",
+            "children": [
+              {
+                "name": "SRGAN",
+                "id": "SRGAN"
+              },
+              {
+                "name": "CycleGAN",
+                "id": "CycleGAN"
+              }
+            ]
+          },
+          {
+            "name": "Diffusion models",
+            "id": "Diffusion models"
+          }
+        ]
+      },
+      {
+        "name": "Transformers & LLMs",
+        "id": "Transformers & LLMs",
+        "children": [
+          {
+            "name": "Self-Attention",
+            "id": "Self-Attention"
+          },
+          {
+            "name": "NLP pipeline",
+            "id": "NLP pipeline"
+          },
+          {
+            "name": "Tokenizer",
+            "id": "Tokenizer"
+          },
+          {
+            "name": "Encoder / Decoder Models",
+            "id": "Encoder / Decoder Models"
+          }
+        ]
+      }
+    ]
+  },
+
+  "unsupervisedLearning": {
+    "name": "Unsupervised Learning",
+    "id": "Unsupervised Learning",
+    "children": [
+      {
+        "name": "Clustering",
+        "id": "Clustering",
+        "children": [
+          {
+            "name": "K-Means Clustering",
+            "id": "K-Means Clustering",
+            "children": [
+              {
+                "name": "Initialization",
+                "id": "Initialization"
+              },
+              {
+                "name": "K-Means++",
+                "id": "K-Means++"
+              },
+              {
+                "name": "K Selection Methods",
+                "id": "K Selection Methods",
+                "children": [
+                  {
+                    "name": "Elbow Method",
+                    "id": "Elbow Method"
+                  },
+                  {
+                    "name": "Variance Ratio Criterion",
+                    "id": "Variance Ratio Criterion"
+                  },
+                  {
+                    "name": "Silhouette Score",
+                    "id": "Silhouette Score"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Hierarchical Clustering",
+            "id": "Hierarchical Clustering",
+            "children": [
+              {
+                "name": "Agglomerative (Bottom Up)",
+                "id": "Agglomerative (Bottom Up)",
+                "children": [
+                  {
+                    "name": "Linkage Criteria",
+                    "id": "Linkage Criteria",
+                    "children": [
+                      {
+                        "name": "Single Linkage",
+                        "id": "Single Linkage"
+                      },
+                      {
+                        "name": "Complete Linkage",
+                        "id": "Complete Linkage"
+                      },
+                      {
+                        "name": "Average Linkage Mean",
+                        "id": "Average Linkage Mean"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Divisive (Top Down)",
+                "id": "Divisive (Top Down)"
+              }
+            ]
+          },
+          {
+            "name": "DBSCAN",
+            "id": "DBSCAN",
+            "children": [
+              {
+                "name": "Core Points",
+                "id": "Core Points"
+              },
+              {
+                "name": "Border Points",
+                "id": "Border Points"
+              },
+              {
+                "name": "Noise Points",
+                "id": "Noise Points"
+              }
+            ]
+          },
+          {
+            "name": "Gaussian Mixture Models",
+            "id": "Gaussian Mixture Models",
+            "children": [
+              {
+                "name": "Latent Variable Models",
+                "id": "Latent Variable Models"
+              },
+              {
+                "name": "Expectation Maximization",
+                "id": "Expectation Maximization"
+              }
+            ]
+          },
+          {
+            "name": "Generative Models",
+            "id": "Generative Models"
+          }
+        ]
+      },
+      {
+        "name": "Dimensionality Reduction",
+        "id": "Dimensionality Reduction",
+        "children": [
+          {
+            "name": "PCA",
+            "id": "PCA",
+            "children": [
+              {
+                "name": "White Noise",
+                "id": "White Noise"
+              },
+              {
+                "name": "PCA Whitening Transform",
+                "id": "PCA Whitening Transform"
+              },
+              {
+                "name": "Covariance Matrix",
+                "id": "Covariance Matrix"
+              },
+              {
+                "name": "Maths",
+                "id": "Maths",
+                "children": [
+                  {
+                    "name": "Eigen Values / Eigen Vectors",
+                    "id": "Eigen Values / Eigen Vectors"
+                  },
+                  {
+                    "name": "Variance",
+                    "id": "Variance"
+                  }
+                ]
+              },
+              {
+                "name": "Probabilistic PCA",
+                "id": "Probabilistic PCA"
+              },
+              {
+                "name": "t-SNE",
+                "id": "t-SNE"
+              }
+            ]
+          },
+          {
+            "name": "Singular Value Decomposition",
+            "id": "Singular Value Decomposition",
+            "children": [
+              {
+                "name": "Recommender Systems",
+                "id": "Recommender Systems"
+              },
+              {
+                "name": "Relationship to PCA",
+                "id": "Relationship to PCA"
+              }
+            ]
+          },
+          {
+            "name": "Multi Dimensional Scaling (MDS)",
+            "id": "Multi Dimensional Scaling (MDS)",
+            "children": [
+              {
+                "name": "Classical MDS",
+                "id": "Classical MDS"
+              },
+              {
+                "name": "Metric MDS",
+                "id": "Metric MDS"
+              },
+              {
+                "name": "Non-Metric MDS",
+                "id": "Non-Metric MDS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Autoencoders",
+        "id": "Autoencoders",
+        "children": [
+          {
+            "name": "Linear / Nonlinear Autoencoders",
+            "id": "Linear / Nonlinear Autoencoders"
+          },
+          {
+            "name": "Overcomplete / Undercomplete Autoencoders",
+            "id": "Overcomplete / Undercomplete Autoencoders"
+          },
+          {
+            "name": "Sparse Autoencoders",
+            "id": "Sparse Autoencoders"
+          },
+          {
+            "name": "Denoising Autoencoders",
+            "id": "Denoising Autoencoders"
+          },
+          {
+            "name": "Convolutional Autoencoders",
+            "id": "Convolutional Autoencoders"
+          }
+        ]
+      }
+    ]
+  },
+
+  "supervisedLearning": {}
+}

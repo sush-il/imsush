@@ -1,8 +1,17 @@
 @keyframes textChange {
-  0%, 100% { content: "Code ... "; }
-  25% { content: "Create ..."; }
-  50% { content: "Design ..."; }
-  75% { content: "Develop ..."; }
+  0%,
+  100% {
+    content: "Code ... ";
+  }
+  25% {
+    content: "Create ...";
+  }
+  50% {
+    content: "Design ...";
+  }
+  75% {
+    content: "Develop ...";
+  }
 }
 
 .text-change::after {

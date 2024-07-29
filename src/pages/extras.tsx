@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/navbar";
-import Mindmap from "../components/mindmap";
 import ExtraLinkCards from "../components/extraLinkCards";
-import hci from "../utils/data/hciCourseData.json";
-import ml from "../utils/data/machineLearning.json";
+import extraLinkList from "../utils/data/extrasCardData";
 
 const Extras = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,15 +10,7 @@ const Extras = () => {
     setIsOpen(!isOpen);
   };
 
-  const extraLinkList = [
-    { title: "Uni Modules & Mind Map", path: "/uni" },
-    { title: "Actions", path: "/actions" },
-    { title: "CV", path: "/cv", newTab: true },
-    { title: "Project Builds & Other Videos", path: "/builds" },
-  ];
-
   return (
-    // ${isOpen ? 'filter blur-sm' : ''}
     <div
       className={`w-full min-h-screen font-mono flex flex-col bg-slate-100 text-black dark:bg-gray-900  dark:text-white p-3 `}>
       <Navbar toggleMenu={toggleMenu} isOpen={isOpen} />
@@ -36,14 +26,10 @@ const Extras = () => {
           Dive in and explore if you wish!
         </p>
       </div>
-      {/* container self-center gap-2 flex flex-col md:flex-row flex-wrap */}
+
       <div className='container self-center grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3'>
         {extraLinkList.map((element) => (
-          <ExtraLinkCards
-            title={element.title}
-            linksTo={element.path}
-            newTab={element.newTab}
-          />
+          <ExtraLinkCards title={element.title} linksTo={element.path} />
         ))}
       </div>
 
