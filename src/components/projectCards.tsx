@@ -1,8 +1,8 @@
 import { githubIcon, folderIcon } from "../assets/svgIcons";
-import { projectData } from "../utils/dataTypes";
+import { projectDataType } from "../utils/dataTypes";
 import TechUsed from "./techUsed";
 
-const ProjectCards: React.FC<{ project: projectData }> = ({ project }) => {
+const ProjectCards: React.FC<{ project: projectDataType }> = ({ project }) => {
   return (
     <div className='text-slate-100 flex flex-col justify-between p-2 rounded-md bg-slate-800 shadow w-full transition-all duration-300 hover:-translate-y-2 hover:shadow-white'>
       <div className='w-full h-40 overflow-hidden'>
