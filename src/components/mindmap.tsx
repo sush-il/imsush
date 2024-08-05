@@ -29,14 +29,14 @@ const Mindmap: React.FC<MindmapProps> = ({ data }) => {
         linkTooltipAnchor='top' // Provide a default anchor
         meshDetectionRadius={80}
         //// Dummy functions because they are required by TS but optioinal on nivo
-        onNodeMouseEnter={(event, datum) => {}}
-        onNodeMouseMove={(event, datum) => {}}
-        onNodeMouseLeave={(event, datum) => {}}
-        onNodeClick={(event, datum) => {}}
-        onLinkMouseEnter={(event, datum) => {}}
-        onLinkMouseMove={(event, datum) => {}}
-        onLinkMouseLeave={(event, datum) => {}}
-        onLinkClick={(event, datum) => {}}
+        onNodeMouseEnter={(_event, _datum) => {}}
+        onNodeMouseMove={(_event, _datum) => {}}
+        onNodeMouseLeave={(_event, _datum) => {}}
+        onNodeClick={(_event, _datum) => {}}
+        onLinkMouseEnter={(_event, _datum) => {}}
+        onLinkMouseMove={(_event, _datum) => {}}
+        onLinkMouseLeave={(_event, _datum) => {}}
+        onLinkClick={(_event, _datum) => {}}
         linkTooltip={() => null}
       />
     </div>

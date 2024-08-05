@@ -70,7 +70,7 @@ const AdminPage = () => {
       body: JSON.stringify(dataToAdd),
     };
     try {
-      const response = await fetch(
+      await fetch(
         `https://getpantry.cloud/apiv1/pantry/${pantryId}/basket/${basketName}`,
         options
       );
