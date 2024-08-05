@@ -1,7 +1,7 @@
 const pantryId = import.meta.env.VITE_PANTRYID;
 const basketName = import.meta.env.VITE_PANTRYBASKETNAME;
 const adminUsername = import.meta.env.VITE_ADMINLOGINID;
-const adminPassword = import.meta.env.VITE_ADMINGPASSWORD;
+const adminPassword = import.meta.env.VITE_ADMINPASSWORD;
 
 export const getMainData = async () => {
   try {
