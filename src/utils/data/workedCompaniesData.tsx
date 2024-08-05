@@ -23,9 +23,9 @@ const companies: { [key: string]: CompanyProps } = {
     date: "Oct 2022 - June 2026",
     description: [
       "Expected Grade - First Class",
-      <a target='_blank' href='\uni' className='text-teal-400 hover:text-white'>
-        View All Modules Taken
-      </a>,
+      // <a target='_blank' href='\uni' className='text-teal-400 hover:text-white'>
+      //   View All Modules Taken
+      // </a>,
     ],
   },
 };
