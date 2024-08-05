@@ -1,4 +1,4 @@
-import { ResponsiveTree, Tree } from "@nivo/tree";
+import { ResponsiveTree } from "@nivo/tree";
 import { MindmapProps } from "../utils/dataTypes";
 
 const Mindmap: React.FC<MindmapProps> = ({ data }) => {

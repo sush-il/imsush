@@ -11,8 +11,8 @@ const AdminPage = () => {
     return <Login />;
   }
 
-  const pantryId = import.meta.env.VITE_PANTRYID;
-  const basketName = import.meta.env.VITE_PANTRYBASKETNAME;
+  const pantryId = import.meta.env.VITE_PANTRYID as string;
+  const basketName = import.meta.env.VITE_PANTRYBASKETNAME as string;
 
   const [isSidePanelOpen, setSidePanelOpen] = useState(false);
   const [projects, setProjects] = useState<projectDataType[]>([]);
@@ -23,15 +23,19 @@ const AdminPage = () => {
   });
 
   useEffect(() => {
-    const allCurrentProjects = sessionStorage.getItem("currentProjects");
-    const allCurrentBuilds = sessionStorage.getItem("currentBuildsData");
+    const allCurrentProjects: string | null =
+      sessionStorage.getItem("currentProjects");
+    const allCurrentBuilds: string | null =
+      sessionStorage.getItem("currentBuildsData");
 
     if (allCurrentProjects !== null) {
       try {
         const parsedProjects = JSON.parse(
           allCurrentProjects
         ) as projectDataType[];
-        const parsedBuilds = JSON.parse(allCurrentBuilds) as buildsDataType;
+        const parsedBuilds = allCurrentBuilds
+          ? (JSON.parse(allCurrentBuilds) as buildsDataType)
+          : { web: [], leetcode: [], other: [] };
         setProjects(parsedProjects);
         setBuilds(parsedBuilds);
       } catch (error) {
@@ -77,21 +81,22 @@ const AdminPage = () => {
 
   const closeSidePanel = (
     type?: "project" | "build" | "card" | null,
-    newData?: projectDataType | buildsDataType
+    newData?: projectDataType | buildsDataType // : { web: [], leetcode: [], other: [] }
   ) => {
     if (type === "project" && newData) {
-      const dataToAdd = [...projects, newData];
-      addItem(type, [newData]);
+      const dataToAdd = [...projects, newData] as projectDataType[];
+      addItem(type, [newData as projectDataType]);
       setProjects(dataToAdd);
     } else if (type === "build" && newData) {
-      if (newData.web.length > 0) {
-        builds.web.push(newData.web[0]);
+      const dataToAdd = newData as buildsDataType;
+      if (dataToAdd.web.length > 0) {
+        builds.web.push(dataToAdd.web[0]);
         addItem(type, builds);
-      } else if (newData.leetcode.length > 0) {
-        builds.leetcode.push(newData.leetcode[0]);
+      } else if (dataToAdd.leetcode.length > 0) {
+        builds.leetcode.push(dataToAdd.leetcode[0]);
         addItem(type, builds);
-      } else if (newData.other.length > 0) {
-        builds.other.push(newData.other[0]);
+      } else if (dataToAdd.other.length > 0) {
+        builds.other.push(dataToAdd.other[0]);
         addItem(type, builds);
       }
     }
