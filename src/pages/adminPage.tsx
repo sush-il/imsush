@@ -4,15 +4,14 @@ import SidePanel from "../components/adminSidePanel";
 import { buildsDataType, projectDataType } from "../utils/dataTypes";
 import Login from "./login";
 
+const apiURL = import.meta.env.VITE_API_URL;
+
 const AdminPage = () => {
   const isAuthenticated = sessionStorage.getItem("isAuthenticated");
 
   if (isAuthenticated !== "true") {
     return <Login />;
   }
-
-  const pantryId = import.meta.env.VITE_PANTRYID as string;
-  const basketName = import.meta.env.VITE_PANTRYBASKETNAME as string;
 
   const [isSidePanelOpen, setSidePanelOpen] = useState(false);
   const [projects, setProjects] = useState<projectDataType[]>([]);
@@ -70,10 +69,7 @@ const AdminPage = () => {
       body: JSON.stringify(dataToAdd),
     };
     try {
-      await fetch(
-        `https://getpantry.cloud/apiv1/pantry/${pantryId}/basket/${basketName}`,
-        options
-      );
+      await fetch(apiURL, options);
     } catch (error) {
       console.error("Couldn't add item to the API: " + error);
     }

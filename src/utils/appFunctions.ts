@@ -1,12 +1,11 @@
-const pantryId = import.meta.env.VITE_PANTRYID;
-const basketName = import.meta.env.VITE_PANTRYBASKETNAME;
+const apiURL = import.meta.env.VITE_API_URL;
 const adminUsername = import.meta.env.VITE_ADMINLOGINID;
 const adminPassword = import.meta.env.VITE_ADMINPASSWORD;
 
 export const getMainData = async () => {
   try {
     const response = await fetch(
-      `https://getpantry.cloud/apiv1/pantry/${pantryId}/basket/${basketName}`
+      apiURL
     );
     const data = await response.json();
     return data;
