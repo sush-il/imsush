@@ -2,7 +2,6 @@ import { useContext, useState } from "react";
 import Navbar from "./components/navbar";
 import HeroSection from "./components/heroSection";
 import ExtraProjects from "./components/extraProjects";
-import FeaturedProjects from "./components/featuredProjects";
 import { DataContext } from "./utils/dataContext";
 import { mainDataType } from "./utils/dataTypes";
 
@@ -46,15 +45,15 @@ function App() {
           {" "}
           Featured Projects{" "}
         </h1>
-        <FeaturedProjects projects={projects} />
+        <ExtraProjects projects={projects} isFeatured={true} />
 
         <br />
 
-        <h1 className='text-5xl font-bold text-left p-2 pb-5'>
+        <h1 className='text-5xl font-bold text-left p-2 mt-10 pb-5'>
           {" "}
           Other Projects
         </h1>
-        <ExtraProjects projects={projects} />
+        <ExtraProjects projects={projects} isFeatured={false} />
       </div>
     </div>
   );

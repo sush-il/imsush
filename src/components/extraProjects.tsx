@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import ProjectCards from "./projectCards";
 import { projectDataType } from "../utils/dataTypes";
 
-const ExtraProjects: React.FC<{ projects: projectDataType[] }> = ({
-  projects,
+const ExtraProjects: React.FC<{ projects: projectDataType[], isFeatured: boolean }> = ({
+  projects, isFeatured
 }) => {
   return (
     <div>
@@ -12,7 +12,7 @@ const ExtraProjects: React.FC<{ projects: projectDataType[] }> = ({
           .slice(0, 6)
           .map(
             (project, index) =>
-              project.featured === "false" && (
+              project.featured === `${isFeatured}` && (
                 <ProjectCards project={project} key={index} />
               )
           )}

@@ -4,13 +4,12 @@ const data = {
         "featured": "true",
         "title": "Spotii",
         "description": "Spotii is a Spotify Music Analyzer application that integrates with the Spotify API to provide users with information about their playlists, top artists, and top tracks",
-        "cover": "https://drive.google.com/uc?id=1DCi6Xn6GMeDxWdiI3HUUPupM40BRFF4C&export=download",
+        "cover": "",
         "githubLink": "https://github.com/sush-il/Spotii",
         "demoLink": "",
         "techUsed": [
           "TypeScript",
           "React",
-          "Spotify API",
           "Express"
         ]
       }, 
@@ -34,8 +33,7 @@ const data = {
         "githubLink": "https://github.com/sush-il/Duplicate-Page-Remover",
         "demoLink": "",
         "techUsed": [
-          "Flutter",
-          "Dart"
+          "Python"
         ]
       },
       {
